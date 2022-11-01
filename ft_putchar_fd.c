@@ -6,7 +6,7 @@
 /*   By: terabu <terabu@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/21 14:19:20 by terabu            #+#    #+#             */
-/*   Updated: 2022/10/21 14:31:07 by terabu           ###   ########.fr       */
+/*   Updated: 2022/11/01 12:45:56 by terabu           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,10 +16,3 @@ void	ft_putchar_fd(char c, int fd)
 {
 	write(fd, &c, 1);
 }
-
-// #include<stdio.h>
-// int main()
-// {
-// 	ft_putchar_fd('a', 0);
-// 	return 0;
-// }

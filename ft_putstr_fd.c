@@ -6,7 +6,7 @@
 /*   By: terabu <terabu@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/21 14:19:49 by terabu            #+#    #+#             */
-/*   Updated: 2022/10/22 13:00:02 by terabu           ###   ########.fr       */
+/*   Updated: 2022/11/01 12:45:56 by terabu           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,10 +18,3 @@ void	ft_putstr_fd(char *s, int fd)
 		return ;
 	write(fd, s, ft_strlen(s));
 }
-
-// #include<stdio.h>
-// int main()
-// {
-// 	ft_putstr_fd("abcde",0);
-// 	return 0;
-// }

@@ -6,7 +6,7 @@
 /*   By: terabu <terabu@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/15 16:11:08 by terabu            #+#    #+#             */
-/*   Updated: 2022/10/21 16:44:08 by terabu           ###   ########.fr       */
+/*   Updated: 2022/11/01 12:45:56 by terabu           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,23 +34,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	ft_strlcat(heap, s2, len_s1 + len_s2 + 1);
 	return (heap);
 }
-
-// #include<stdio.h>
-// #include<unistd.h>
-// int main()
-// {
-// 	char *str = "";
-// 	str = ft_strjoin("abc", "42");
-// 	printf("%s\n",str);
-
-// 	char	*s1 = "where is my ";
-// 	char	*s2 = "malloc ???";
-// 	printf("%s\n",ft_strjoin(s1, s2));
-// 	// int i = 0;
-// 	// while (i < 5)
-// 	// {
-// 	// 	write(1, &str[i], 1);
-// 	// 	i++;
-// 	// }
-// 	return 0;
-// }

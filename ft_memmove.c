@@ -6,7 +6,7 @@
 /*   By: terabu <terabu@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/06 13:19:08 by terabu            #+#    #+#             */
-/*   Updated: 2022/10/13 10:38:54 by terabu           ###   ########.fr       */
+/*   Updated: 2022/11/01 12:45:56 by terabu           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,9 +35,3 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-
-// #
-// int main()
-// {
-
-// }

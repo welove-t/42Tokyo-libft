@@ -6,7 +6,7 @@
 /*   By: terabu <terabu@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/21 14:19:39 by terabu            #+#    #+#             */
-/*   Updated: 2022/10/24 09:40:28 by terabu           ###   ########.fr       */
+/*   Updated: 2022/11/01 12:45:56 by terabu           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,17 +33,3 @@ void	ft_putnbr_fd(int n, int fd)
 	else
 		ft_putchar_fd(n + '0', fd);
 }
-
-// #include <stdio.h>
-// int main()
-// {
-// 	ft_putnbr_fd(123,0);
-// 	putchar('\n');
-// 	ft_putnbr_fd(-123,0);
-// 	putchar('\n');
-// 	ft_putnbr_fd(INT_MAX,0);
-// 	putchar('\n');
-// 	ft_putnbr_fd(INT_MIN,0);
-// 	putchar('\n');
-// 	return 0;
-// }

@@ -6,7 +6,7 @@
 /*   By: terabu <terabu@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/15 16:11:24 by terabu            #+#    #+#             */
-/*   Updated: 2022/10/22 11:45:46 by terabu           ###   ########.fr       */
+/*   Updated: 2022/11/01 12:45:56 by terabu           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,13 +65,3 @@ char	*ft_itoa(int n)
 	set_num(heap, (long)n, cnt);
 	return (heap);
 }
-
-// #include<stdio.h>
-// int main()
-// {
-// 	// printf("%s\n", ft_itoa(123));
-// 	printf("%s\n", ft_itoa(-123));
-// 	printf("%s\n", ft_itoa(INT_MAX));
-// 	printf("%s\n", ft_itoa(INT_MIN));
-// 	return 0;
-// }

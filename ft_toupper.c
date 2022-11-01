@@ -6,7 +6,7 @@
 /*   By: terabu <terabu@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/14 07:19:37 by terabu            #+#    #+#             */
-/*   Updated: 2022/10/14 15:54:09 by terabu           ###   ########.fr       */
+/*   Updated: 2022/11/01 12:45:56 by terabu           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,13 +19,3 @@ int	ft_toupper(int c)
 	else
 		return (c);
 }
-
-// #include<stdio.h>
-// #include <ctype.h>
-// int main()
-// {
-// 	char s[] = "";
-// 	printf("%c\n",toupper(s[0]));
-// 	printf("%c\n",ft_toupper(s[0]));
-// 	return 0;
-// }

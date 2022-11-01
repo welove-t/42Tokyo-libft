@@ -6,7 +6,7 @@
 /*   By: terabu <terabu@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/15 16:10:38 by terabu            #+#    #+#             */
-/*   Updated: 2022/10/20 12:04:29 by terabu           ###   ########.fr       */
+/*   Updated: 2022/11/01 12:45:56 by terabu           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,15 +31,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	ft_strlcpy(heap, s, len + 1);
 	return (heap);
 }
-
-// #include<stdio.h>
-// int main()
-// {
-// 	printf("%s\n",ft_substr("abcde",1,3));
-// 	printf("%s\n",ft_substr("abcde",1,0));
-// 	printf("%s\n",ft_substr("abcde",100,1));
-// 	printf("%s\n",ft_substr("tripouille", 100, 1));
-// 	printf("%s\n",ft_substr("tripouille", 0, 42000));
-
-// 	return 0;
-// }

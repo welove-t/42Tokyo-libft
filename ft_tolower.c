@@ -6,7 +6,7 @@
 /*   By: terabu <terabu@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/14 07:19:34 by terabu            #+#    #+#             */
-/*   Updated: 2022/10/14 15:54:11 by terabu           ###   ########.fr       */
+/*   Updated: 2022/11/01 12:45:56 by terabu           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,13 +19,3 @@ int	ft_tolower(int c)
 	else
 		return (c);
 }
-
-// #include<stdio.h>
-// #include <ctype.h>
-// int main()
-// {
-// 	char s[] = "HOGE";
-// 	printf("%c\n",tolower(s[0]));
-// 	printf("%c\n",ft_tolower(s[0]));
-// 	return 0;
-// }

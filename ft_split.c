@@ -6,7 +6,7 @@
 /*   By: terabu <terabu@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/15 16:11:19 by terabu            #+#    #+#             */
-/*   Updated: 2022/10/22 11:48:18 by terabu           ###   ########.fr       */
+/*   Updated: 2022/11/01 12:45:56 by terabu           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -86,33 +86,3 @@ char	**ft_split(char const *s, char c)
 	heap = set_split(s, c, cnt, heap);
 	return (heap);
 }
-
-// #include<stdio.h>
-// #include<string.h>
-// int main()
-// {
-// 	// char **s;
-// 	// s = ft_split("AAbbBBbbCCbb", 'b');
-// 	// for (int i = 0; i < 4; i++)
-// 	// 	printf("%s\n",s[i]);
-// 	// puts("---");
-// 	// s = ft_split("bbAAbbBBbbCCbb", 'b');
-// 	// for (int i = 0; i < 4; i++)
-// 	// 	printf("%s\n",s[i]);
-// 	// puts("---");
-// 	// s = ft_split("bbAAbbBBbbCC", 'b');
-// 	// for (int i = 0; i < 4; i++)
-// 	// 	printf("%s\n",s[i]);
-// 	// puts("---");
-
-// 	char **tab;
-// 	tab = ft_split("1-2--3---4----5-----42-", '-');
-// 	// tab = ft_split("1-2--3---4----5-----42-", '{');
-// 	for (int i = 0; i < 7; i++)
-// 		printf("%s\n",tab[i]);
-
-// 	// s = ft_split("      split       this for   me  !       ", ' ');
-// 	// for (int i = 0; i < 6; i++)
-// 	// 	printf("%s\n",s[i]);
-// 	return 0;
-// }

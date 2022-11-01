@@ -6,7 +6,7 @@
 /*   By: terabu <terabu@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/15 16:11:02 by terabu            #+#    #+#             */
-/*   Updated: 2022/10/22 07:57:50 by terabu           ###   ########.fr       */
+/*   Updated: 2022/11/01 12:45:56 by terabu           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,17 +67,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	heap[len] = '\0';
 	return (heap);
 }
-
-// #include <stdio.h>
-// int main()
-// {
-// 	// ft_strtrim("11122344AAA","1234");
-// 	printf("%s\n",ft_strtrim("11122344AAA12A34","1234"));
-// 	printf("%s\n",ft_strtrim("","1234"));
-// 	printf("%s\n",ft_strtrim("44443332211AAA44433323143","1234"));
-// 	printf("%s\n",ft_strtrim(" \t \n\n \t\t \nHello \t e\n!\n  \t\n "," \n\t"));
-// 	printf("%s\n",ft_strtrim(""," \n\t"));
-// 	printf("%s\n",ft_strtrim(NULL," \n\t"));
-// 	printf("%s\n",ft_strtrim("   xxx   xxx", " x"));
-// 	printf("%s\n",ft_strtrim("abcdba", "acb"));
-// }
