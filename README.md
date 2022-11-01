@@ -1,6 +1,6 @@
 # 42Tokyo-libft
 ## Overview
-This is a standard function developed in C
+This is a standard function developed in C.
 
 ## Requirement
 - OS       👉 macOS
