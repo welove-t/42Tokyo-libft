@@ -6,11 +6,11 @@
 #    By: terabu <terabu@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/13 09:34:19 by terabu            #+#    #+#              #
-#    Updated: 2022/10/24 09:30:56 by terabu           ###   ########.fr        #
+#    Updated: 2022/10/29 09:13:06 by terabu           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-CC := gcc
+CC := cc
 CFLAGS := -Wall -Wextra -Werror
 NAME := libft.a
 SRCS := ft_atoi.c \
@@ -47,7 +47,15 @@ SRCS := ft_atoi.c \
 		 ft_substr.c \
 		 ft_tolower.c \
 		 ft_toupper.c \
-
+		 ft_lstnew.c \
+		 ft_lstadd_front.c \
+		 ft_lstsize.c \
+		 ft_lstlast.c \
+		 ft_lstadd_back.c \
+		 ft_lstdelone.c \
+		 ft_lstclear.c \
+		 ft_lstiter.c \
+		 ft_lstmap.c
 OBJS := $(SRCS:.c=.o)
 
 all: $(NAME)
